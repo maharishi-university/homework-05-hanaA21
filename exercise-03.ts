@@ -11,7 +11,7 @@ type RecipesResponse = {
 
 (async () => {
     try {
-        const response = await fetch('https://dummyjson.com/recipes');
+        const response = await fetch('https://dummyjson.com/recipes');;
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
