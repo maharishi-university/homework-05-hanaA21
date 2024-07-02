@@ -1,15 +1,13 @@
-interface Recipe {
+type Recipe = {
     id: number;
     title: string;
-    description: string;
-}
-
-interface RecipesResponse {
+    ingredients: string;
+    instructions: string;
+    thumbnail: string;
+};
+type RecipesResponse = {
     recipes: Recipe[];
-    total: number;
-    skip: number;
-    limit: number;
-}
+};
 
 (async () => {
     try {
