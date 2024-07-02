@@ -1,0 +1,16 @@
+{
+  "name": "homework-05-hanaa21",
+  "version": "1.0.0",
+  "description": "Implement the code for `Meditation` class to be used as follows:\r ```typescript\r const morning_meditation = new Meditation(5);\r morning_meditation.start();\r console.log(`Start meditation`);",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx watch exercise-03.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "tsx": "^4.16.0"
+  }
+}
